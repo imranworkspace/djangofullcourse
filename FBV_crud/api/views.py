@@ -13,7 +13,7 @@ from rest_framework.permissions import IsAuthenticated
 
 
 @csrf_exempt
-@api_view(['GET','POST','PUT','PATCH'])
+@api_view(['GET','POST','PUT','PATCH','DELETE'])
 @authentication_classes([BasicAuthentication])
 @permission_classes([IsAuthenticated])
 def fbv_student(request,pk=None):
