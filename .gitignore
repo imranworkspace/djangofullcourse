@@ -1,2 +1,6 @@
 .myenv/
 .myenv2/
+__pycache__/
+.FBV_crud/FBV_crud/__pycache__/
+# VS Code
+.vscode/
