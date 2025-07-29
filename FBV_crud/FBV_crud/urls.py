@@ -21,7 +21,7 @@ schema_view = get_schema_view(
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('students/', views.fbv_student,name='students'),
+    #path('students/', views.fbv_student,name='students'),
     path('students/<int:pk>/', views.fbv_student,name='students'),
     # swagger 
     path('swagger/', schema_view.with_ui('swagger', cache_timeout=0), name='schema-swagger-ui'),
